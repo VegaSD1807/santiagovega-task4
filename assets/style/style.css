@@ -1,0 +1,647 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 4.5vh;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: #6b543d;
+    position: sticky;
+}
+body{
+    background-image: url(../images/fondocoffee.png);
+    background-size: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: nowrap;
+}
+header > img{
+    width: 3%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: aliceblue;
+    margin-right: 5%;
+}
+.navbar a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-left: 2%;
+    border-radius: 8px;
+    padding: 2px 5px 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: aliceblue;
+}
+.navbar a:hover{
+    background-color: bisque;
+}
+#actualpage{
+    background-color: black;
+    color: white;
+    box-shadow: rgb(255, 255, 255) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 2px;
+}
+/* /////////////////////// HOME ///////////////////////// */
+.topindex, .botindex{
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.topindex{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.topindex h1{
+    text-decoration: underline;
+}
+#minicake{
+    width: 90%;
+    height: 90%;
+    border-radius: 1vh;
+}
+.botindex{
+    margin-top: 1vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 25%;
+}
+#coffee{
+    width: 50%;
+    border-radius: 1vh;
+}
+#text{
+    font-size: 2vh;
+}
+
+/* /////////////////////////ABOUT US//////////////////////// */
+.abouttop{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.abouttop h1{
+    text-decoration: underline;
+}
+.aboutdiv1 img , .aboutdiv2 img , .aboutdiv3 img{
+    width: 30%;
+    border-radius: 1vh;
+}
+.aboutdiv1 h3, .aboutdiv2 h3, .aboutdiv3 h3{
+    padding-left: 1vh;
+}
+.divs{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+.aboutdiv1 , .aboutdiv2, .aboutdiv3{
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 2%;
+    padding: 1rem;
+}
+/* ////////////////////// CONTACT /////////////////////// */
+.contacttop{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 8vh;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.contacttop h1{
+    text-decoration: underline;
+}
+.contacttop img{
+    width: 90%;
+}
+.workhour{
+    margin-top: 2vh;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.contactinfo {
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 23px;
+    margin-top: 3vh;
+    text-decoration: none;
+    color: black;
+}
+.contactinfo p{
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding: 2px 5px 2px 5px;
+}
+/* //////////////////Information/////////////////////// */
+.infotop{
+    margin-left: 33%;
+    margin-top: 5%;
+    width: 34%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    text-align: center;
+}
+.infotop h1{
+    text-decoration: underline;
+}
+table, tr, td, th{
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50vh;
+    height: 15vh;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+}
+.infotable{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 5vh;
+}
+/* //////////////////BENEFITS AND TIPS//////////// */
+.benefitstop{
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.benefitstop h1{
+    text-decoration: underline;
+}
+.coffeebenefits{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 2%;
+    padding: 8px 5px 8px 5px;
+}
+.coffeebenefits img{
+    width: 40%;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.coffeebenefits ol,li{
+    padding-left: 30px;
+}
+.coffeetips img{
+    width: 40%;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.coffeetips{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 2%;
+    padding: 8px 5px 8px 5px;
+}
+/*//////////////////RAFFLE//////////////////*/
+.rafflemain{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.raffletop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 40%;
+    height: 15%;
+    margin-left: 30%;
+    margin-top: .5vh;
+}
+.raffletop h1{
+    text-decoration: underline;
+}
+.raffleimg{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 50%;
+}
+.raffleimg img{
+    width: 40%;
+    align-items: end;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.formposition{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+}
+.imgAndForm{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0rem 2rem 0rem;
+}
+.raffleform{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 50%;
+    padding-left: 2%;
+}
+.map{
+    height: 100%;
+    width: 20%;
+    padding:2vh ;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.rafflefooter{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    height: 25.5vh;
+    background-color: whitesmoke;
+}
+#services{
+    height: 6rem;
+    width: 80%;
+}
+#country , #color , #name , #lastname , #formmail{
+    width: 80%;
+}
+form >label{
+    padding: .5rem 0rem .5rem 0rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar >a{
+        margin-top: .2rem;
+        margin-bottom: .2rem;
+    }
+    header img{
+        display: none;
+    }
+    #minicake{
+        height: 100%;
+        width: 90%;
+    }
+    .topindex{
+        height: 30%;
+    }
+    .botindex{
+        flex-direction: column;
+    }
+    #coffee{
+        padding-top: 5%;
+        width: 100%;
+    }
+    .topindex , .botindex{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    .abouttop{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .aboutdiv1 , .aboutdiv2, .aboutdiv3{
+        width: 80%;
+        margin-left: 10%;
+        flex-direction: column;
+    }
+    .aboutdiv1 img , .aboutdiv2 img, .aboutdiv3 img{
+        width: 100%;
+    }
+    .contacttop, .workhour{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .workhour{
+        padding: .5rem;
+    }
+    .contactinfo{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    #phone{
+        margin-top: 1.5rem;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .infotop{
+        width: 80%;
+        margin-left: 10%;
+    }
+    table, tr, td, th{
+        width: 100%;
+        height: 15vh;
+    }
+    .benefitstop{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .coffeebenefits , .coffeetips{
+        width: 96%;
+        margin-left: 2%;
+        flex-direction: column;
+        padding: 1.5rem;
+        height: 50%;
+        margin-top: 5%;
+    }
+    .coffeebenefits img , .coffeetips img{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+    }
+    .raffletop{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .imgAndForm{
+        flex-direction: column;
+        margin: 0;
+    }
+    .raffleimg{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .raffleimg img{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .raffleform{
+        width: 90%;
+    }
+    .formposition{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .rafflefooter{
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .map{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width:768px){
+    .navbar a{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    header img{
+        width: 5%;
+    }
+    .topindex{
+        margin-top: 5%;
+        width: 90%;
+        margin-left: 5%;
+        padding-bottom: 1rem;
+    }
+    .botindex{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .abouttop{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .aboutdiv1 , .aboutdiv2 , .aboutdiv3{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+    .contacttop{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .workhour{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .contactinfo{
+        flex-direction: column;
+        text-align: center;
+    }
+    #phone{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 1rem;
+    }
+    .infotop{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 5rem;
+    }
+    .benefitstop{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .coffeebenefits , .coffeetips{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .armony1 , .armony2{
+        padding-left: 2rem;
+    }
+    .coffeebenefits img , .coffeetips img{
+        padding-right: 0;
+    }
+    .raffletop{
+        width: 44%;
+        margin-left: 33%;
+    }
+    .raffleimg img{
+        width: 80%;
+    }
+    .raffleform{
+        width: 100%;
+    }
+    .rafflefooter{
+        justify-content: center;
+    }
+    .map {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.topindex{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 1rem;
+}
+.botindex{
+width: 80%;
+margin-left: 10%;
+margin-top: 1rem;
+}
+.abouttop{
+    width: 20%;
+    margin-left: 40%;
+}
+.aboutdiv1 , .aboutdiv2 , .aboutdiv3{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+.contacttop, .workhour{
+    width: 70%;
+    margin-left: 15%;
+}
+.contactinfo{
+    width: 36%;
+    margin-left: 32%;
+flex-direction: column;
+text-align: center;
+}
+#phone{
+    width: 36%;
+    margin-left: 32%;
+    margin-top: 3%;
+}
+.benefitstop{
+    width: 60%;
+    margin-left: 20%;
+}
+.coffeebenefits , .coffeetips{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.coffeebenefits img, .coffeetips img{
+    padding-right: 0;
+}
+.armony1, .armony2{
+    padding-left: 2rem;
+}
+.raffletop{
+    width: 34%;
+    margin-left: 33%;
+}
+.raffleimg{
+    margin-left: 4rem;
+}
+.raffleimg img{
+    width: 80%;
+}
+.raffleform{
+    width: 80%;
+    padding-left: 2rem;
+}
+.map{
+    width: 40%;
+}
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+    <title>Daflogui Cake | Raffle</title>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+    <a href="./index.html">Home</a>
+    <a href="./aboutUs.html">About Us</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./information.html">More information</a>
+    <a href="./benefitsTips.html">Benefits and Tips</a>
+    <a href="#" id="actualpage">Raffle</a>
+    </nav>
+    <img src="./assets/images/logo.png" alt="Daflogui logo" title="Daflogui Cake">
+</header>
+
+    <main class="rafflemain">
+        <section class="raffletop">
+            <h1>Raffle</h1>
+            <h2>You can participate in a Raffle. The prize is a coffee pot.</h2>
+        </section>
+
+    <div class="imgAndForm">
+        <div class="raffleimg">
+            <img src="./assets/images/cup-w-coffee.jpg" alt="">
+            <img src="./assets/images/cup-coffee.jpg" alt="">
+        </div>
+        <section class="formposition">
+            <form action="./show_data.html"  class="raffleform">
+                <label for="name">First Name</label>
+                <input type="text" id="name">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname">
+                <label for="formmail">Email</label>
+                <input type="text" id="formmail" name="formmail">
+                <label for="color">What color would you like the coffee pot:</label>
+                <select name="color" id="color">
+                    <option value="">Select your color</option>
+                    <option value="blue">Blue</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                </select>
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="">Select your country</option>
+                    <option value="usa">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="england">England</option>
+                </select>
+                <h4>Payment Options:</h4>
+                    <input type="radio" name="payment" id="cash" value="cash">
+                    <label for="payment">Cash</label>
+                    <input type="radio" name="payment" id="credit" value="credit">
+                    <label for="payment">Credit Card/s</label>
+                    <input type="radio" name="payment" id="debit" value="debit">
+                    <label for="payment">Debit Card/s</label>
+                <label for="services">Services</label>
+                <input type="text" id="services" name="services">
+                <div id="check">
+                    <input type="checkbox" name="check">
+                    <label>I accept terms and conditions.</label>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+    </main>
+    <footer class="rafflefooter">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225470.3451407706!2d-82.6190889171159!3d27.99468748437393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1681929617983!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+    </footer>
+</body>
+</html>
